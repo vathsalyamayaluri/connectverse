@@ -1,0 +1,304 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #f4f6f8;
+    margin:0;
+    padding:10px;
+}
+.ImageContainer form{
+    width:400px;
+    height:300px;
+    background-color:gray;
+    margin-top: 50px;
+    margin-left:37%;
+    border-radius: 5px;
+    padding:5px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+}
+.uploadBox{
+    width:100%;
+    height: 100%;
+  background-color:seashell;
+
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 28px;
+    border-radius: 5px;
+}
+input[type="file"]{
+    display: none;
+}
+input[type='text'],
+input[type='email'],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.uploadBox{
+    max-width: 50%;
+    min-height: 50%;
+    margin-left: 20%;
+  }
+.uploadBox img{
+    width:100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.btn{
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top:20px;
+}
+form button{
+    width:100px;
+    margin-top:auto;
+    cursor: pointer;
+    height:30px;
+    border:none;
+    background-color: blue;
+    border-radius: 5px;
+}
+.allimg{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: center;
+}
+
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+    font-size: 20px;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.btn button {
+    padding: 8px 16px;
+    background-color:black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.btn button:hover {
+    background-color: #0056b3;
+}
+
+.card1{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    padding: 20px;
+    
+    height: 250px;
+    background-color: #f9f9f9;
+    align-items: center;
+  }
+  .card1 img {
+    width: 80%;
+    height: 70%;
+    border-radius: 8px;
+}
+.NotesContainer {
+    max-width: 600px;
+    float: right;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 100%; 
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group select,
+.form-group input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn {
+    text-align: right; 
+    margin-top: 20px;
+    width: 100%;
+   
+}
+
+.btn button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.btn button:hover {
+    background-color: #0056b3;
+}
+.title {
+    color:white; 
+    font-size: 2rem;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .custom-input {
+    width: 300px; 
+  padding: 10px;
+    font-size: 16px; 
+    border: 2px solid #ccc; 
+    border-radius: 5px; 
+    color: #333;
+    background-color: #f5f5f5;
+  }
+  
+  .custom-input:focus {
+    outline: none;
+    border-color: #007bff; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+  }
+   
+  .form-cont {
+    background-color: #f0f0f0;
+    margin-top: 10%;
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out; 
+  }
+ 
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .custom-textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px; 
+  font-size: 16px; 
+  border: 2px solid #ccc; 
+  border-radius: 5px; 
+  color: #333; 
+  background-color: #f5f5f5;
+}
+
+.custom-textarea:focus {
+  outline: none; 
+  border-color: #007bff; 
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+.uploaded-image img{
+    float:left;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center
+}
+
+.btn {
+    text-align: center;
+  }
+  
+  .btn button {
+    background-color: #007bff; 
+    color: #fff; 
+    padding:30px;
+    font-size: 1rem;
+    width: 20%;
+    height:20%;
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn button:hover {
+    background-color: #0056b3;
+  }
+ 
+  .btn button {
+    animation: fadeIn 1s ease-in-out; 
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  #post{
+width: 800px;
+background-color: #1a365d;
+color: white;
+  }

@@ -1,0 +1,99 @@
+.navbar {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+color: white;
+box-shadow:10px 10px 10px solid gray ;
+
+ }
+
+ .profile-icon {
+  margin-left: auto; 
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+
+
+ .navbar-brand {
+   color:white;
+   font-weight: bold;
+   font-size: 3.5rem;
+   margin-right: auto; 
+
+ }
+ 
+ .navbar-logo {
+   text-decoration: none; 
+   color:white;
+ 
+   font-size: 40px;
+
+ }
+
+ .navbar-nav {
+   list-style: none; 
+   margin: 0;
+   display: flex;
+   margin-right: auto; 
+ }
+ 
+
+
+
+
+ .nav-link {
+   text-decoration: none; 
+   color: white;
+   font-weight: bold;
+   font-size: 30px; 
+   width: 100%;
+ }
+ 
+
+ .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+
+}
+
+.navbar-brand {
+  font-size: 24px;
+}
+
+.navbar-logo {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.home-link {
+  position: fixed;
+  top: 20px;
+  right: 0;
+  font-size: 40px;
+  margin-right: 20px;
+}
+
+.home-link a {
+  color: white;
+  text-decoration: none;
+}
+
+.home-link a:hover {
+  text-decoration: underline;
+}

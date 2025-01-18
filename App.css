@@ -1,0 +1,30 @@
+/* App.css */
+.App {
+  font-family: Arial, sans-serif;
+}
+
+.navigation {
+  background-color: #333;
+  color: white;
+  display: flex;
+  padding: 10px;
+}
+
+.nav-item {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.page-content {
+  margin-top: 20px;
+}
+
+.page-content > div {
+  display: none;
+}
+
+.page-content > div.visible {
+  display: block;
+}
+
+

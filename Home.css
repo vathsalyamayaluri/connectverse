@@ -1,0 +1,285 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-image: url('whi.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.home{
+    width: 100%;
+    font-family: 'Roboto',sans-serif;
+    height: 100vh;
+   /* background-image: url('rrr.jpg');*/
+      /* background-image: linear-gradient(greenyellow,coral),url('ba2.jpeg');*/
+ background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('ba.jpeg');
+ /*background-image: url('otp.avif');*/
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.top-nav{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    color:white;
+    margin-left: 20px;
+
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+
+.mainrow{
+    display: flex;
+    height: 88%;
+    
+    align-items: center;
+
+}
+.column{
+    flex-basis: 50%;
+
+
+}
+.columm{
+    flex-basis: 25%;
+}
+.columm1{
+    flex-basis: 75%;
+
+
+}
+.column1{
+    flex-basis: 50%;
+    margin-left: 10%;
+
+}
+.h1{
+    color: #fff;
+    font-size: 100px;
+
+}
+.p{
+    color:gray;
+    font-size: 13px;
+    line-height: 15px;
+    margin-left: 10%;
+    justify-content: center;
+}
+
+.maincard{
+    width: 160px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding:12px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 10px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.c1{
+    background-image: url('project.jpg');
+ 
+
+}
+.c2{
+    background-image: url('lab.jpg');
+
+}
+.c3{
+    background-image: url('written.jpg');
+
+}
+.c4{
+    background-image: url('arts.jpg');
+    margin-top: 20px;
+
+}
+.c5{
+    background-image: url('events.jpg');
+
+}
+.maincard:hover{
+    transform: translateY(-10px);
+}
+h2{
+    color:#000;
+    text-shadow: 0 0 5px #999;
+}
+.maincard p{
+    text-shadow: 0 0 15px #000;
+    font-size: 15px;
+} 
+  .sidebar {
+    position: absolute;
+    top: 10%;
+  
+    right: 40px;
+    border-radius: 10px;
+    font-size: 40px;
+    width: 230px;
+    animation: slideInRight 0.5s forwards;
+    height: 30%;
+    background-color:gainsboro;
+    padding: 20px;
+   text-align: center;
+    transition: right 0.1s ease;
+    
+
+    z-index: 1000;
+    overflow-y: auto; /* Add scrollbar if content exceeds height */
+}
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: transparent;
+    border: none;
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+}
+.sidebar .ul li a{
+    margin-top: 50px;
+    top:50px;
+font-family:'Times New Roman', Times, serif;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    padding: 20px;
+}
+.sidebar .ul li a{
+    font-size: 18px;
+}
+.sidebar .ul li a:hover {
+    background-color:transparent; /* Change to your desired background color */
+}
+
+.sidebar button {
+    background: transparent;
+    border: none;
+    color: black;
+  
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    cursor: pointer;
+}
+.close-btn1 {
+    position: relative;
+align-items: center;
+justify-content: center;
+text-align: center;
+right:10px;
+font-family:'Times New Roman', Times, serif;
+    background: transparent;
+    border: none;
+    color: black;
+    font-size: 20px;
+      justify-content: center;
+    cursor: pointer;
+}
+.space-before-verse {
+    margin-left: 15%; /* Adjust the value as needed */
+}
+#explore{
+   
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    margin-left: 35%;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+#explore:hover{
+background-color: coral;
+
+}
+
+.sidebar .ul li:after {
+    content: ''; /* Create pseudo-element for line */
+    position: absolute; /* Position absolute to position line */
+    bottom: 0; /* Align line to bottom of list item */
+    left: 0; /* Start line from left */
+    width: 100%; /* Full width line */
+    height: 1px; /* Height of line */
+    background-color: #ccc; /* Color of line */
+}
+.sidebar-container .highlight {
+    background-color: yellow;
+    height: 2px; /* Adjust the height of the highlight */
+    margin: 0; /* Remove default margin */
+    border: none; /* Remove default border */
+}
+#about{
+    min-height:700px;
+}
+.bj-adv-list .bj-adv-item {
+    display: inline-block; /* or use inline-flex for more flexible layout */
+    width: 30%; /* Adjust width as needed */
+    margin: 0 1%; /* Add margin for spacing between divs */
+    vertical-align: top; /* Align divs at the top */
+}
+.scroll-container {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    animation: scroll 20s linear infinite; /* Adjust the duration as needed */
+}
+
+.logo-ltr, .logo-rtl {
+    display: inline-block;
+    vertical-align: middle;
+    animation: moveRightToLeft 20s linear infinite; /* Adjust the duration as needed */
+}
+
+@keyframes moveRightToLeft {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+

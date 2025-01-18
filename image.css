@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #f4f6f8;
+    margin:0;
+    padding:10px;
+}
+.ImageContainer form{
+    width:400px;
+    height:300px;
+    background-color:green;
+    margin-top: 50px;
+    margin-left:37%;
+    border-radius: 5px;
+    padding:5px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+}
+.uploadBox{
+    width:100%;
+    height: 100%;
+  background-color:seashell;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 40px;
+    border-radius: 5px;
+}
+.uploadBox img{
+    width:100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.btn{
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top:20px;
+}
+form button{
+    width:100px;
+    margin-top:auto;
+    cursor: pointer;
+    height:30px;
+    border:none;
+    background-color: blue;
+    border-radius: 5px;
+}
+.allimg{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px
+}
+
+
+.allimg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.btn button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn button:hover {
+    background-color: #0056b3;
+}
+
+/* AboutPage.css */
+
+.about-container {
+    text-align: center;
+    animation: fadeIn 1s ease; /* Use fadeIn animation */
+}
+
+/* Define fadeIn animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Start with opacity 0 */
+        transform: translateY(-20px); /* Move up slightly */
+    }
+    to {
+        opacity: 1; /* End with opacity 1 */
+        transform: translateY(0); /* Return to original position */
+    }
+}

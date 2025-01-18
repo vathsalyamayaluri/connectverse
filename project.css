@@ -1,0 +1,14 @@
+.row{
+    margin-top: 2%;
+    margin-left: 5%;
+       display: flex;
+   }
+   
+   .div1 .button{
+       float: right;
+       width:10%;
+       padding: 15px;
+       background-color:blue;
+       color: white;
+       border-radius: 10px;
+   }

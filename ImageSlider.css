@@ -1,0 +1,23 @@
+.scroll-container {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent cards from wrapping */
+  
+    padding: 10px; /* Optional: Add padding for spacing */
+    max-width: 600px; /* Optional: Adjust maximum width */
+    height: 200px; /* Set fixed height for the container */
+}
+
+.scroll-wrapper {
+    display: inline-flex; /* Use inline-flex to display cards in a row */
+}
+
+.car {
+    flex: 0 0 auto; /* Ensure cards maintain their original width */
+    width: 300px; /* Set width for each card */
+    height: 100%; /* Optional: Set height if needed */
+    margin-right: 10px; /* Optional: Add margin between cards */
+    background-color: #f5f5f5; /* Optional: Add background color for cards */
+    border: 1px solid #ddd; /* Optional: Add border for cards */
+    border-radius: 5px; /* Optional: Add border radius for cards */
+    padding: 10px; /* Optional: Add padding for content within cards */
+}

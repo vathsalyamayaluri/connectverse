@@ -1,0 +1,47 @@
+.ce {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.na {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: navy;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.na h1 {
+    margin: 0;
+}
+
+.na ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.na ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.na ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 2fr));
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+
+.grid-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
